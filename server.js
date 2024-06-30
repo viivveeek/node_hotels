@@ -14,6 +14,7 @@ app.use("/person", person_routes);
 const menu_routes = require("./routes/menu_routes");
 app.use("/menu", menu_routes);
 
+// hello
 app.listen(PORT, () => {
   console.log("Server started on port 3000");
 });
